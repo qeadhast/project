@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:orientation="vertical">
+
+	<TextView
+		android:id="@+id/txtv"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:translationX="180dp"
+		android:text="result"
+		android:textSize="18sp"
+		android:textStyle="bold"
+		android:translationY="45dp"/>
+
+	<EditText
+		android:id="@+id/edittxt"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:translationX="80dp"
+		android:inputType="number"
+		android:ems="5"
+		android:textStyle="italic"
+		android:translationY="105dp"/>
+
+	<EditText
+		android:id="@+id/edittxt2"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:translationX="220dp"
+		android:translationY="60dp"
+		android:inputType="number"
+		android:ems="5"
+		android:textStyle="italic"/>
+
+	<Button
+		android:id="@+id/modul"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:translationY="180dp"
+		android:text="Mod"
+		android:textStyle="bold"
+		android:typeface="serif"
+		android:textColor="#1C49F1"
+		android:onClick="onclick"/>
+
+	<Button
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="+"
+		android:translationX="106dp"
+		android:translationY="132dp"
+		android:textColor="#1C49F1"
+		android:id="@+id/plus"/>
+
+	<Button
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="-"
+		android:id="@+id/minus"
+		android:translationX="215dp"
+		android:textColor="#1C49F1"
+		android:translationY="84dp"/>
+
+	<Button
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="*"
+		android:id="@+id/umno"
+		android:textColor="#1C49F1"
+		android:translationX="323dp"
+		android:translationY="36dp"/>
+
+	<Button
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="/"
+		android:id="@+id/delen"
+		android:textColor="#1C49F1"
+		android:translationX="323dp"
+		android:translationY="38dp"/>
+
+	<Button
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="**"
+		android:id="@+id/stepen"
+		android:textColor="#1C49F1"
+		android:translationY="-10dp"/>
+
+</LinearLayout>
+
